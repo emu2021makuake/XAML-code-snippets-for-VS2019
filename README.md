@@ -3,21 +3,29 @@ XAML code snippets for Visual Studio 2019
 
 ## Installation procedure
 
-Select `Tools` - `Code Snippets Manager` from the menu.
+1. Select `Tools` - `Code Snippets Manager` from the menu.
 
 ![01](https://user-images.githubusercontent.com/81235941/121006282-b3935d80-c7cb-11eb-8bc4-896477fa4fb4.png)
 
-Select the `Import` button.
+2. Select the `Import` button.
 
 ![02](https://user-images.githubusercontent.com/81235941/121006316-bbeb9880-c7cb-11eb-813e-4bf854c785bc.png)
 
-Select the `Xammet.snippet` file you downloaded and click the `Open` button.
+3. Select the `Xammet.snippet` file you downloaded and click the `Open` button.
 
 ![03](https://user-images.githubusercontent.com/81235941/121006345-c27a1000-c7cb-11eb-8195-b9b5d480193b.png)
 
-Select the `Finish` button.
+4. Select the `Finish` button.
 
 ![04](https://user-images.githubusercontent.com/81235941/121006375-c9088780-c7cb-11eb-8b4f-6d3fac64073a.png)
+
+## Usage
+
+Enter the shortcut command and type `Tab` twice.
+
+![05](https://user-images.githubusercontent.com/81235941/121008126-9c556f80-c7cd-11eb-86c9-e191dc442005.png)
+
+![06](https://user-images.githubusercontent.com/81235941/121008159-a5ded780-c7cd-11eb-9460-5788201b1d9d.png)
 
 ## List of snippets
 
