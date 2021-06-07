@@ -13,7 +13,7 @@ XAML code snippets for Visual Studio 2019
 
 3. Select the `Xammet.snippet` file you downloaded and click the `Open` button.
 
-![03](https://user-images.githubusercontent.com/81235941/121006345-c27a1000-c7cb-11eb-8195-b9b5d480193b.png)
+![03](https://user-images.githubusercontent.com/81235941/121095506-69da5f80-c82b-11eb-8cd9-ab208c831756.png)
 
 4. Select the `Finish` button.
 
