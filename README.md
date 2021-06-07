@@ -1,2 +1,65 @@
 # XAML-code-snippets-for-VS2019
 XAML code snippets for Visual Studio 2019
+
+## Installation procedure
+
+Select `Tools` - `Code Snippets Manager` from the menu.
+
+![01](https://user-images.githubusercontent.com/81235941/121006282-b3935d80-c7cb-11eb-8bc4-896477fa4fb4.png)
+
+Select the `Import` button.
+
+![02](https://user-images.githubusercontent.com/81235941/121006316-bbeb9880-c7cb-11eb-813e-4bf854c785bc.png)
+
+Select the `Xammet.snippet` file you downloaded and click the `Open` button.
+
+![03](https://user-images.githubusercontent.com/81235941/121006345-c27a1000-c7cb-11eb-8195-b9b5d480193b.png)
+
+Select the `Finish` button.
+
+![04](https://user-images.githubusercontent.com/81235941/121006375-c9088780-c7cb-11eb-8b4f-6d3fac64073a.png)
+
+## List of snippets
+
+| Shortcut      | Code                                                         | Description                      |
+| ------------- | ------------------------------------------------------------ | -------------------------------- |
+| `btn`         | `<Button Content="Button" Margin="5" />`                     | Button                           |
+| `btn#`        | `<Button x:Name="btn1" Content="Button" Margin="5" />`       | Button with name                 |
+| `check`       | `<CheckBox Content="CheckBox" IsChecked="True" Margin="5" />` | CheckBox                         |
+| `check#`      | `<CheckBox x:Name="check1" Content="CheckBox" IsChecked="True" Margin="5" />` | CheckBox with name               |
+| `radio`       | `<RadioButton Content="RadioButton" IsChecked="True" Margin="5" />` | RadioButton                      |
+| `radio#`      | `<RadioButton x:Name="radio1" Content="RadioButton" IsChecked="True" Margin="5" />` | RadioButton with name            |
+| `lbl`         | `<Label Content="Label" Margin="5" />`                       | Label                            |
+| `tbk`         | `<TextBlock Text="TextBlock" Margin="5" />`                  | TextBlock                        |
+| `tbx`         | `<TextBox Text="TextBox" Margin="5" />`                      | TextBox                          |
+| `tbx#`        | `<TextBox x:Name="txt1" Text="TextBox" Margin="5" />`        | TextBox with name                |
+| `list`        | `<ListBox ItemsSource="{}" SelectedIndex="0" Margin="5" />`  | ListBox                          |
+| `list#`       | `<ListBox x:Name="list1" ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ListBox with name                |
+| `list>li`     | `<ListBox SelectedIndex="0" Margin="5">`<br/>`    <ListBoxItem Content="item1" />`<br/>`</ListBox>` | ListBox containing ListBoxItem   |
+| `combo`       | `<ComboBox ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ComboBox                         |
+| `combo#`      | `<ComboBox x:Name="combo1" ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ComboBox with name               |
+| `combo>ci`    | `<ComboBox SelectedIndex="0" Margin="5">`<br/>`    <ComboBoxItem Content="item1" />`<br/>`</ComboBox>` | ComboBox containing ComboBoxItem |
+| `rds`         | `<Grid.RowDefinitions></Grid.RowDefinitions>`                | Grid RowDefinitions              |
+| `cds`         | `<Grid.ColumnDefinitions></Grid.ColumnDefinitions>`          | Grid ColumnDefinitions           |
+| `grid`        | `<Grid></Grid>`                                              | Grid                             |
+| `stack`       | `<StackPanel></StackPanel>`                                  | StackPanel                       |
+| `stackh`      | `<StackPanel Orientation="Horizontal"></StackPanel>`         | Horizontal StackPanel            |
+| `wrap`        | `<WrapPanel></WrapPanel>`                                    | WrapPanel                        |
+| `dock`        | `<DockPanel></DockPanel>`                                    | DockPanel                        |
+| `stack>btn*3` | `<StackPanel>`<br />`    <Button Content="Button" Margin="5,5,5,0" />`<br />`    <Button Content="Button" Margin="5,5,5,0" />`<br />`    <Button Content="Button" Margin="5,5,5,0" />`<br />`</StackPanel>` | StackPanel containing 3 Buttons  |
+| `rds>rd*2`    | `<Grid.RowDefinitions>`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`</Grid.RowDefinitions>` | 2 rows Grid                      |
+| `rds>rd*3`    | `<Grid.RowDefinitions>`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`</Grid.RowDefinitions>` | 3 rows Grid                      |
+| `cds>cd*2`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 2 columns Grid                   |
+| `cds>cd*3`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 3 columns Grid                   |
+| `style`       | `<Style x:Key="key1" TargetType="Button"></Style>`           | Style                            |
+
+## Visual Studio 2019 default snippets
+
+| Shortcut  | Code                                                         | Description                          |
+| --------- | ------------------------------------------------------------ | ------------------------------------ |
+| `#region` | `<!--#region NewRegion -->`<br/>`<!--#endregion-->`          | Collapsible XAML regions             |
+| `ddc`     | `d:DataContext="{d:DesignInstance Type=local:MyViewModel, IsDesignTimeCreatable=True}"` | DataContext attribute at design time |
+| `rd`      | `<RowDefinition Height="1*" />`                              | Grid row definition                  |
+| `cd`      | `<ColumnDefinition Width="1*" />`                            | Grid column definition               |
+| `set`     | `<Setter Property="Background" Value="Red" />`               | Setter                               |
+| `tag`     | `<Grid></Grid>`                                              | Any tag                              |
