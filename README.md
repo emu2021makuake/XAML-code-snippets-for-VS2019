@@ -55,6 +55,7 @@ Enter the shortcut command and type `Tab` twice.
 | `wrap`        | `<WrapPanel></WrapPanel>`                                    | WrapPanel                        |
 | `dock`        | `<DockPanel></DockPanel>`                                    | DockPanel                        |
 | `stack>btn*3` | `<StackPanel>`<br />`    <Button Content="Button1" Margin="5,5,5,0" />`<br />`    <Button Content="Button2" Margin="5,5,5,0" />`<br />`    <Button Content="Button3" Margin="5,5,5,0" />`<br />`</StackPanel>` | StackPanel containing 3 Buttons  |
+| `stackh>btn*3` | `<StackPanel Orientation="Horizontal">`<br />`    <Button Content="Button1" Margin="5,5,0,5" />`<br />`    <Button Content="Button2" Margin="5,5,0,5" />`<br />`    <Button Content="Button3" Margin="5,5,0,5" />`<br />`</StackPanel>` | Horizontal StackPanel containing 3 Buttons  |
 | `rds>rd*2`    | `<Grid.RowDefinitions>`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`</Grid.RowDefinitions>` | 2 rows Grid                      |
 | `rds>rd*3`    | `<Grid.RowDefinitions>`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`</Grid.RowDefinitions>` | 3 rows Grid                      |
 | `cds>cd*2`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 2 columns Grid                   |
