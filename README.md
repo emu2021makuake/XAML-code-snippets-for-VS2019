@@ -29,7 +29,7 @@ Enter the shortcut command and type `Tab` twice.
 
 ## List of snippets
 
-| Shortcut      | Code                                                         | Description                      |
+| Shortcut      | Insert code                                                  | Description                      |
 | ------------- | ------------------------------------------------------------ | -------------------------------- |
 | `btn`         | `<Button Content="Button" Margin="5" />`                     | Button                           |
 | `btn#`        | `<Button x:Name="btn1" Content="Button" Margin="5" />`       | Button with name                 |
@@ -63,7 +63,7 @@ Enter the shortcut command and type `Tab` twice.
 
 ## FYR Visual Studio 2019 default snippets
 
-| Shortcut  | Code                                                         | Description                          |
+| Shortcut  | Insert code                                                  | Description                          |
 | --------- | ------------------------------------------------------------ | ------------------------------------ |
 | `#region` | `<!--#region NewRegion -->`<br/>`<!--#endregion-->`          | Collapsible XAML regions             |
 | `ddc`     | `d:DataContext="{d:DesignInstance Type=local:MyViewModel, IsDesignTimeCreatable=True}"` | DataContext attribute at design time |
