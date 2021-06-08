@@ -61,7 +61,7 @@ Enter the shortcut command and type `Tab` twice.
 | `cds>cd*3`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 3 columns Grid                   |
 | `style`       | `<Style x:Key="key1" TargetType="Button"></Style>`           | Style                            |
 
-## Visual Studio 2019 default snippets
+## FYR Visual Studio 2019 default snippets
 
 | Shortcut  | Code                                                         | Description                          |
 | --------- | ------------------------------------------------------------ | ------------------------------------ |
