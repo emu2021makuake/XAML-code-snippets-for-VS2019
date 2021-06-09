@@ -38,15 +38,20 @@ Enter the shortcut command and type `Tab` twice.
 | `radio`       | `<RadioButton Content="RadioButton" IsChecked="True" Margin="5" />` | RadioButton                      |
 | `radio#`      | `<RadioButton x:Name="radio1" Content="RadioButton" IsChecked="True" Margin="5" />` | RadioButton with name            |
 | `lbl`         | `<Label Content="Label" Margin="5" />`                       | Label                            |
-| `tbk`         | `<TextBlock Text="TextBlock" Margin="5" />`                  | TextBlock                        |
+| `tblk`        | `<TextBlock Text="TextBlock" Margin="5" />`                  | TextBlock                        |
 | `tbx`         | `<TextBox Text="TextBox" Margin="5" />`                      | TextBox                          |
 | `tbx#`        | `<TextBox x:Name="txt1" Text="TextBox" Margin="5" />`        | TextBox with name                |
+| `lbl+tbx`     | `<Label Content="Item Name1" Margin="5,5,5,0" Padding="0" />`<br />`<TextBox Text="Item Value1" Margin="5,0,5,5" />`        | Label and TextBox|
+| `tblk+tbx`    | `<TextBlock Text="Item Name1" Margin="5,5,5,0" />`<br />`<TextBox Text="Item Value1" Margin="5,0,5,5" />`        | TextBlock and TextBox|
 | `list`        | `<ListBox ItemsSource="{}" SelectedIndex="0" Margin="5" />`  | ListBox                          |
 | `list#`       | `<ListBox x:Name="list1" ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ListBox with name                |
 | `list>li`     | `<ListBox SelectedIndex="0" Margin="5">`<br/>`    <ListBoxItem Content="item1" />`<br/>`</ListBox>` | ListBox containing ListBoxItem   |
 | `combo`       | `<ComboBox ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ComboBox                         |
 | `combo#`      | `<ComboBox x:Name="combo1" ItemsSource="{}" SelectedIndex="0" Margin="5" />` | ComboBox with name               |
 | `combo>ci`    | `<ComboBox SelectedIndex="0" Margin="5">`<br/>`    <ComboBoxItem Content="item1" />`<br/>`</ComboBox>` | ComboBox containing ComboBoxItem |
+| `border`      | `<Border BorderBrush="Black" BorderThickness="1" Height="100" Width="100" />` | Border               |
+| `rect`        | `<Rectangle Fill="LightGray" Height="100" Width="100" Stroke="Black" />`      | Rectangle            |
+| `img`         | `<Image Source="image1.png" />`                              | Image                            |
 | `rds`         | `<Grid.RowDefinitions></Grid.RowDefinitions>`                | Grid RowDefinitions              |
 | `cds`         | `<Grid.ColumnDefinitions></Grid.ColumnDefinitions>`          | Grid ColumnDefinitions           |
 | `grid`        | `<Grid></Grid>`                                              | Grid                             |
