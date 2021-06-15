@@ -66,6 +66,9 @@ Enter the shortcut command and type `Tab` twice.
 | `cds>cd*2`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 2 columns Grid                   |
 | `cds>cd*3`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 3 columns Grid                   |
 | `style`       | `<Style x:Key="key1" TargetType="Button"></Style>`           | Style                            |
+| `winres`   | `<Window.Resources></Window.Resources>`  | Window Resources   |
+| `pgres`   | `<Page.Resources></Page.Resources>`  | Page Resources   |
+| `ucres`   | `<UserControl.Resources></UserControl.Resources>`  | UserControl Resources   |
 
 ## FYR Visual Studio 2019 default snippets
 
