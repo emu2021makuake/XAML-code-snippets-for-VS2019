@@ -1,5 +1,6 @@
 # XAML-code-snippets-for-VS2019
 XAML code snippets for Visual Studio 2019.
+
 You can enter it with a shortcut like Emmet.
 
 ## Installation procedure
