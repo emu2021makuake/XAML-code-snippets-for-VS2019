@@ -67,7 +67,8 @@ Enter the shortcut command and type `Tab` twice.
 | `rds>rd*3`    | `<Grid.RowDefinitions>`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`        <RowDefinition Height="1*" />`<br />`</Grid.RowDefinitions>` | 3 rows Grid                      |
 | `cds>cd*2`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 2 columns Grid                   |
 | `cds>cd*3`    | `<Grid.ColumnDefinitions>`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`        <ColumnDefinition Width="1*" />`<br />`</Grid.ColumnDefinitions>` | 3 columns Grid                   |
-| `style`       | `<Style x:Key="key1" TargetType="Button"></Style>`           | Style                            |
+| `style`       | `<Style TargetType="Button"></Style>`           | Style                            |
+| `style#`      | `<Style x:Key="key1" TargetType="Button"></Style>`           | Style with key                   |
 | `winres`   | `<Window.Resources></Window.Resources>`  | Window Resources   |
 | `pgres`   | `<Page.Resources></Page.Resources>`  | Page Resources   |
 | `ucres`   | `<UserControl.Resources></UserControl.Resources>`  | UserControl Resources   |
