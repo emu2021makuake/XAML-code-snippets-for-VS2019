@@ -23,7 +23,7 @@ You can enter it with a shortcut like Emmet.
 
 ## Usage
 
-Enter the shortcut command and type `Tab` twice.
+Enter the shortcut command and type `Tab`.
 
 ![05](https://user-images.githubusercontent.com/81235941/121008126-9c556f80-c7cd-11eb-86c9-e191dc442005.png)
 
