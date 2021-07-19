@@ -72,6 +72,10 @@ Enter the shortcut command and type `Tab`.
 | `winres`   | `<Window.Resources></Window.Resources>`  | Window Resources   |
 | `pgres`   | `<Page.Resources></Page.Resources>`  | Page Resources   |
 | `ucres`   | `<UserControl.Resources></UserControl.Resources>`  | UserControl Resources   |
+| `menu`   | `<Menu></Menu>`  | Menu   |
+| `menu>mi`   | `<Menu>`<br />    `<MenuItem Header="Item1" />`<br />`</Menu>`  | Menu containing MenuItem   |
+| `cmenu`   | `<ContextMenu></ContextMenu>`  | ContextMenu   |
+| `cmenu>mi`   | `<ContextMenu>`<br />    `<MenuItem Header="Item1" />`<br />`</ContextMenu>`  | ContextMenu containing MenuItem   |
 
 ## FYR Visual Studio 2019 default snippets
 
