@@ -823,4 +823,84 @@
     </Snippet>
   </CodeSnippet>
 
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Menu</Title>
+      <Description>&lt;Menu&gt;</Description>
+      <Shortcut>menu</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="XAML">
+        <![CDATA[<Menu>$end$</Menu>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Menu&gt;MenuItem</Title>
+      <Description>&lt;Menu&gt;&lt;MenuItem&gt; ...</Description>
+      <Shortcut>menu&gt;mi</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Value1</ID>
+          <Default>Item1</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="XAML">
+        <![CDATA[<Menu>
+            <MenuItem Header="$Value1$" />$selected$$end$
+        </Menu>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ContextMenu</Title>
+      <Description>&lt;ContextMenu&gt;</Description>
+      <Shortcut>cmenu</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="XAML">
+        <![CDATA[<ContextMenu>$end$</ContextMenu>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ContextMenu&gt;MenuItem</Title>
+      <Description>&lt;ContextMenu&gt;&lt;MenuItem&gt; ...</Description>
+      <Shortcut>cmenu&gt;mi</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Value1</ID>
+          <Default>Item1</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="XAML">
+        <![CDATA[<ContextMenu>
+            <MenuItem Header="$Value1$" />$selected$$end$
+        </ContextMenu>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
 </CodeSnippets>
