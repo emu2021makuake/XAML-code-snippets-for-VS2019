@@ -87,3 +87,7 @@ Enter the shortcut command and type `Tab`.
 | `cd`      | `<ColumnDefinition Width="1*" />`                            | Grid column definition               |
 | `set`     | `<Setter Property="Background" Value="Red" />`               | Setter                               |
 | `tag`     | `<Grid></Grid>`                                              | Any tag                              |
+
+## Reference link
+
+[For Visual Studio Code here.](https://github.com/emu2021makuake/vscode-xaml-snippets)
